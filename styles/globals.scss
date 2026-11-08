@@ -1,0 +1,27 @@
+@use "./colors" as *;
+@use "./card" as *;
+@use "./fonts" as *;
+@use "./shadows" as *;
+@use "./animations" as *;
+
+//GLOBAL RESET
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+}
+
+//SCROLL BEHAVIOR
+html {
+  scroll-behavior: smooth;
+}
+
+//RULE FOR REQUIRED INPUTS
+label:has(+ input:required)::after {
+  content: "*";
+  color: red;
+  font-weight: bold;
+}

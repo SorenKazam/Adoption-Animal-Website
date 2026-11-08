@@ -1,0 +1,15 @@
+.phoneInput {
+  display: flex;
+  flex-direction: row;
+
+  .countryCode {
+    max-width: 150px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .phoneNumber {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}

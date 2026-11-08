@@ -1,0 +1,66 @@
+.container {
+  width: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1.5px solid color-mix(in srgb, var(--color-clay) 20%, transparent);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.975rem;
+
+    thead {
+      background-color: var(--color-clay);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+
+      th {
+        padding: 1rem 1.25rem;
+        text-align: left;
+        font-weight: 600;
+        font-size: 0.875rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #fff;
+      }
+    }
+
+    tbody tr {
+      border-bottom: 1.5px solid
+        color-mix(in srgb, var(--color-cream) 80%, #ccc);
+      transition: background-color 0.15s ease;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &:nth-child(even) {
+        background-color: var(--color-cream);
+      }
+
+      &:hover {
+        background-color: var(--color-clay-light);
+      }
+    }
+
+    td {
+      padding: 0.875rem 1.25rem;
+      vertical-align: middle;
+      color: var(--color-text, #333);
+    }
+  }
+
+  .thPhoto {
+    width: 90px;
+  }
+
+  .thActions {
+    width: 220px;
+  }
+}

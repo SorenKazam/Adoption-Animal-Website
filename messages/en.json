@@ -1,0 +1,567 @@
+{
+  "GoTopButton": {
+    "label": "Back to top"
+  },
+  "Navbar": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "howItWorks": "How It Works",
+      "animals": "Animals",
+      "donate": "Support Us",
+      "contacts": "Contacts"
+    },
+    "navTitle": "ADOPTION",
+    "cta": "Adopt Now 🐾",
+    "ctaAriaLabel": "Go to adoption page",
+    "hamburgerAriaLabel": "Open or close menu"
+  },
+  "AdminDashboard": {
+    "label": "Dashboard",
+    "welcomeTitle": "Welcome back, {name}!",
+    "description": "Manage animals, applications and platform activity.",
+    "animals": "Animals",
+    "applications": "Applications",
+    "animalsDescription": "animals in the shelter",
+    "applicationsDescription": "pending applications",
+    "pendingApplications": "Pending Applications",
+    "profile": "Profile"
+  },
+  "Footer": {
+    "links": {
+      "animals": "Animals for Adoption",
+      "about": "About the Association",
+      "howItWorks": "How It Works",
+      "contacts": "Contact Us",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "top": {
+      "paw": "🐾",
+      "title": "ADOPTION — Animal Adoption Association",
+      "description": "Since 2019, we have been dedicated to rescuing, rehabilitating and responsibly rehoming animals in vulnerable situations across the .",
+      "links": {
+        "title": "Navigation"
+      },
+      "newsletter": {
+        "title": "Newsletter 🐾",
+        "description": "Receive updates about available animals, fundraising campaigns and association initiatives.",
+        "form": {
+          "emailInputPlaceholder": "Enter your email",
+          "submitButtonText": "Subscribe",
+          "submitButtonLabel": "Subscribe to newsletter"
+        }
+      }
+    },
+    "bottom": {
+      "copyright": "© ADOPTION — All rights reserved",
+      "IBAN": "IBAN: PT00 0000 00000000 000 0000 0000 0000 0000 0000 000",
+      "createdBy": "Created with ❤️ by "
+    }
+  },
+  "HomePage": {
+    "hero": {
+      "backgroundPaw": "🐾",
+      "badge": "🐾 Responsible Adoption • Portugal",
+      "title": {
+        "line1": "Give a home to those who",
+        "line2": "need",
+        "highlight": " love the most"
+      },
+      "subtitle": "Every rescue is a new opportunity. Every adoption changes a life.",
+      "buttons": {
+        "primary": "Meet Our Animals 🐾",
+        "primaryAriaLabel": "Go to adoption page",
+        "secondary": "How It Works",
+        "secondaryAriaLabel": "Learn how the process works"
+      },
+      "stats": {
+        "animalsSaved": {
+          "value": "142+",
+          "label": "Animals Rescued"
+        },
+        "happyAdoptions": {
+          "value": "98",
+          "label": "Successful Adoptions"
+        },
+        "yearsHelping": {
+          "value": "5 years",
+          "label": "Caring"
+        }
+      },
+      "imageRow": {
+        "alt": "Animal rescued by the association"
+      }
+    },
+    "howItWorks": {
+      "label": "Adoption Process",
+      "title": "How It",
+      "titleHighlight": "Works",
+      "description": "Every animal goes through a journey of care, recovery and trust before finding a new family.",
+      "steps": [
+        {
+          "color": "orange",
+          "icon": "📢",
+          "title": "Report or Sighting",
+          "description": "We receive reports or alerts about abandoned, injured or at-risk animals."
+        },
+        {
+          "color": "green",
+          "icon": "🚐",
+          "title": "Rescue",
+          "description": "Our team travels to the location and ensures a safe rescue."
+        },
+        {
+          "color": "blue",
+          "icon": "🏥",
+          "title": "Veterinary Care",
+          "description": "Each animal receives medical evaluation, vaccination, deworming and any necessary treatment."
+        },
+        {
+          "color": "purple",
+          "icon": "✂️",
+          "title": "Sterilisation",
+          "description": "Whenever possible, the animal is sterilised to help control the population and ensure a healthier life."
+        },
+        {
+          "type": "urgent",
+          "tag": "⚠️ URGENT",
+          "color": "red",
+          "icon": "🏠",
+          "title": "Shelter — Full Capacity!",
+          "description": "Our shelter has reached its limit. We urgently need adoptions, temporary foster homes and support."
+        }
+      ]
+    },
+    "features": {
+      "label": "Help Us Keep Going",
+      "title": "How to",
+      "titleHighlight": "contribute",
+      "description": "Every contribution helps us feed, treat and protect animals in need.",
+      "features": [
+        {
+          "icon": "/assets/logos/financial/paypal.svg",
+          "title": "PayPal",
+          "description": "Support us quickly and securely through PayPal.",
+          "cta": {
+            "label": "Donate via PayPal",
+            "ariaLabel": "Donate via PayPal",
+            "href": "https://paypal.me/"
+          }
+        },
+        {
+          "icon": "/assets/logos/financial/creditcard.svg",
+          "title": "Bank Transfer",
+          "description": "You can support the association through bank transfer.",
+          "cta": {
+            "label": "Donate via bank transfer",
+            "ariaLabel": "Donate via bank transfer",
+            "href": "https://paypal.me/"
+          }
+        },
+        {
+          "icon": "/assets/logos/financial/mbway.svg",
+          "title": "MBWay",
+          "description": "Make your donation quickly and easily through MB WAY.",
+          "cta": {
+            "label": "Donate via MBWay",
+            "ariaLabel": "Donate via MBWay",
+            "href": "https://paypal.me/"
+          }
+        }
+      ]
+    }
+  },
+  "CardLabels": {
+    "statusLabel": {
+      "available": "Available",
+      "unavailable": "Already Adopted",
+      "adopted": "Already Adopted",
+      "pending": "Adoption in Progress"
+    },
+    "statusLabelButton": {
+      "available": "Meet",
+      "adopted": "Already Adopted",
+      "pending": "Adoption in Progress",
+      "seeAll": "View All"
+    },
+    "year": "year",
+    "years": "years",
+    "month": "month",
+    "months": "months",
+    "day": "day",
+    "days": "days",
+    "noResults": "No animals available right now, and that is good news!"
+  },
+  "CardGrid": {
+    "label": "🐾 Available for Adoption",
+    "title": "Our little ones are waiting for a",
+    "titleHighlight": "family",
+    "description": "Each one has a story. Every one of them deserves a happy ending. Could yours be the next?"
+  },
+  "About": {
+    "label": "🏠 Our Story",
+    "title": "Born from love for",
+    "titleHighlight": "animals",
+    "description": "Patinhas Felizes was founded in 2019 in the  by a group of volunteers who could not ignore the suffering of abandoned animals. Today, we work alongside veterinary partners, volunteers and transport teams to ensure every rescued animal receives the care they deserve before finding the family they should always have had.",
+    "bodyImage": {
+      "url": "/assets/images/man-his-dog-outdoors.jpg",
+      "alt": "Man with dog outdoors"
+    },
+    "pillars": [
+      {
+        "icon": "💊",
+        "title": "Veterinary Care",
+        "text": "Treatment, vaccination and sterilisation for every animal."
+      },
+      {
+        "icon": "🏠",
+        "title": "Temporary Shelter",
+        "text": "Foster homes while they wait for adoption."
+      },
+      {
+        "icon": "❤️",
+        "title": "Responsible Adoption",
+        "text": "Careful family selection and post-adoption follow-up."
+      },
+      {
+        "icon": "📢",
+        "title": "Awareness",
+        "text": "Education campaigns and abandonment prevention."
+      }
+    ]
+  },
+  "Animals": {
+    "label": "Animals",
+    "title": "Our",
+    "titleHighlight": "animals",
+    "description": "Here you will find all the animals waiting for a loving family. If you would like to help, please get in touch with us.",
+    "showAll": "View All",
+    "showAllAriaLabel": "Go to adoption page",
+    "noResults": "No animals available right now, and that is good news!"
+  },
+  "UrgentBanner": {
+    "emphasis": "URGENT",
+    "message": "Our shelter has reached full capacity! Please adopt today."
+  },
+  "Contacts": {
+    "backgroundImageUrl": "/assets/images/man-his-dog-outdoors.jpg",
+    "backgroundImageAlt": "Man with dog outdoors",
+    "label": "Contact Us",
+    "title": "We Are Here to",
+    "titleHighlight": "help",
+    "description": "Do you have questions about adoption, want to report an animal at risk, or simply want to help? Get in touch with us.",
+    "contactOptions": {
+      "phone": "Landline",
+      "mobile": "Mobile (Emergency)",
+      "email": "Email",
+      "location": "Location",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter"
+    },
+    "contactSectionImage": {
+      "alt": "Man with dog outdoors"
+    }
+  },
+  "ItemDetailsLayout": {
+    "greeting": "Hello, I am ",
+    "pronouns": {
+      "male": "he",
+      "female": "she",
+      "other": ""
+    },
+    "status": {
+      "available": "available for adoption",
+      "unavailable": "already adopted",
+      "pending": "adoption in progress"
+    },
+    "adoptionButtonLabel": {
+      "available": "Adopt",
+      "unavailable": "Not Available"
+    },
+    "animalInfo": {
+      "subtitle": "Animal Information",
+      "age": "Age",
+      "species": {
+        "dog": "Dog",
+        "cat": "Cat",
+        "other": "Other"
+      },
+      "breed": {
+        "label": "Breed"
+      },
+      "gender": {
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      },
+      "vaccinated": {
+        "label": "Vaccination",
+        "true": "Vaccinated",
+        "false": "Not Vaccinated"
+      },
+      "neutrized": {
+        "label": "Sterilisation",
+        "true": "Sterilised",
+        "false": "Not Sterilised"
+      },
+      "size": {
+        "label": "Size",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large",
+        "unknown": "Unknown"
+      }
+    }
+  },
+  "metadata": {
+    "default": {
+      "title": "ADOPTION – Animal Adoption Association | Cat Adoption",
+      "description": "ADOPTION is an animal adoption association, dedicated to the care and responsible adoption of adult cats. Discover ADOPTION and help us give vulnerable animals a new life.",
+      "keywords": ["cat adoption", "animal association"]
+    },
+    "openGraph": {
+      "title": "ADOPTION – Animal Adoption Association | Cat Adoption",
+      "description": "ADOPTION is an animal adoption association, dedicated to the care and responsible adoption of adult cats. Discover ADOPTION and help us give vulnerable animals a new life.",
+      "imageAlt": "ADOPTION Shelter"
+    },
+    "twitter": {
+      "title": "ADOPTION – Animal Adoption Association | Cat Adoption",
+      "description": "ADOPTION is an animal adoption association, dedicated to the care and responsible adoption of adult cats. Discover ADOPTION and help us give vulnerable animals a new life."
+    }
+  },
+  "Adopt": {
+    "label": "A small step towards a great love",
+    "title": "Adoption Form for",
+    "subtitle": "ADOPTION Cats",
+    "description": "Get to know ADOPTION and help us give vulnerable animals a new life."
+  },
+  "AdoptForm": {
+    "userData": {
+      "sectionTitle": "Your Details:",
+      "name": "Full Name:",
+      "email": "Email:",
+      "phone": "Phone:",
+      "birthdate": "Date of Birth:",
+      "nationality": "Nationality:"
+    },
+    "address": {
+      "sectionTitle": "Residence:",
+      "address": "Full Address:",
+      "city": "City:",
+      "housingType": {
+        "title": "Type of Housing:",
+        "select": "Select an option",
+        "apartment": "Apartment",
+        "house": "House",
+        "other": "Other"
+      },
+      "housingStatus": {
+        "title": "Owned or rented?",
+        "select": "Select an option",
+        "rent": "Rented",
+        "own": "Owned",
+        "other": "Other"
+      },
+      "petsAllowed": {
+        "title": "Are pets allowed in your home?",
+        "yes": "Yes",
+        "no": "I am not sure"
+      }
+    },
+    "previousPets": {
+      "sectionTitle": "Experience with Animals:",
+      "options": {
+        "title": "Have you had pets before?",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "currentPets": "Do you currently have pets? Which ones?"
+    },
+    "routine": {
+      "sectionTitle": "Routine:",
+      "hoursAlone": "How many hours per day would the animal be alone?",
+      "responsiblePerson": "Who will be primarily responsible for the animal?"
+    },
+    "resident": {
+      "sectionTitle": "Residence in Portugal:",
+      "isResident": {
+        "title": "Are you a resident in Portugal?",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "duration": "How long do you plan to stay in Portugal?",
+      "movePlans": {
+        "title": "Do you plan to move to Portugal?",
+        "yes": "Yes",
+        "no": "No"
+      }
+    },
+    "commitment": {
+      "sectionTitle": "Commitment:",
+      "commitment": {
+        "title": "Are you prepared for veterinary expenses?",
+        "yes": "Yes",
+        "no": "No"
+      }
+    },
+    "otherInfo": "Additional Information:",
+    "submit": "Submit",
+    "submitAriaLabel": "Submit adoption form"
+  },
+  "AdoptionStatusPage": {
+    "status": {
+      "true": "Adoption request sent successfully!",
+      "false": "Something went wrong while sending your request!"
+    },
+    "description": {
+      "true": "Thank you for submitting your adoption request! Someone from our team will contact you shortly.",
+      "false": "Please try again later or contact us directly."
+    },
+    "cta": "Back to Home"
+  },
+  "Admin": {
+    "Sidebar": {
+      "navTitle": "ADOPTION Dashboard",
+      "navLogout": "Logout",
+      "nav": {
+        "home": "Home",
+        "animals": "Animals",
+        "applications": "Adoption Applications",
+        "settings": "Settings",
+        "profile": "Profile"
+      }
+    }
+  },
+  "NotFoundPage": {
+    "title": "404",
+    "description": "Miau! It seems the page you're looking for doesn't exist.",
+    "cta": "Back to Home"
+  },
+  "Login": {
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "resetFields": "Reset fields"
+  },
+  "ApplicationDetails": {
+    "createdAt": "Request created on",
+    "requestedAnimal": "Requested Animal",
+    "contacts": "Contacts",
+    "email": "Email",
+    "phone": "Phone",
+    "personalData": "Adopter Details",
+    "birthdate": "Birthdate",
+    "nationality": "Nationality",
+    "address": "Address",
+    "housing": "Housing",
+    "experienceRoutine": "Experience & Routine",
+    "previousPets": "Have you had pets before?",
+    "currentPets": "Current Pets",
+    "none": "None",
+    "hoursAlone": "Hours Alone",
+    "stayDuration": "Stay Duration",
+    "comments": "Comments",
+    "reject": "Reject",
+    "accept": "Accept",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "ApplicationMobileCards": {
+    "candidate": "Candidate",
+    "animal": "Animal",
+    "status": "Status",
+    "date": "Date"
+  },
+  "DeleteAnimalButton": {
+    "confirmDelete": "Are you sure you want to delete",
+    "delete": "Delete"
+  },
+  "AnimalForm": {
+    "basicInformation": "Basic Information",
+    "name": "Name",
+    "species": "Species",
+    "cat": "Cat",
+    "dog": "Dog",
+    "other": "Other",
+    "breed": "Breed",
+    "details": "Details",
+    "ageMonths": "Age (months)",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "size": "Size",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "adoptionStatus": "Adoption status",
+    "available": "Available",
+    "pending": "Pending",
+    "adopted": "Adopted",
+    "media": "Media",
+    "uploadTitle": "Upload animal image",
+    "uploadSubtitle": "PNG, JPG or WEBP",
+    "removeButton": "Remove",
+    "healthNotes": "Health & Notes",
+    "description": "Description",
+    "vaccinated": "Vaccinated",
+    "neutered": "Neutered",
+    "saveChanges": "Save changes",
+    "createAnimal": "Create animal"
+  },
+  "AddAnimalPage": {
+    "title": "Add Animal",
+    "description": "Add a new animal"
+  },
+  "AdminAnimalsPage": {
+    "title": "Animals",
+    "description": "{count} animals",
+    "addAnimalButton": "Add Animal",
+    "tableHeaders": {
+      "photo": "Photo",
+      "name": "Name",
+      "species": "Species",
+      "adoptionStatus": "Adoption Status",
+      "actions": "Actions"
+    },
+    "previousPage": "← Previous",
+    "pagination": "Page {page} of {totalPages}",
+    "nextPage": "Next →",
+    "noAnimalsFound": "No animals found"
+  },
+  "AdminApplicationsPage": {
+    "title": "Applications",
+    "description": "{count} applications",
+    "tableHeaders": {
+      "photo": "Photo",
+      "animal": "Animal",
+      "candidate": "Candidate",
+      "applicationStatus": "Application Status",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "previousPage": "← Previous",
+    "pagination": "Page {page} of {totalPages}",
+    "nextPage": "Next →",
+    "noApplicationsFound": "No applications found"
+  },
+  "ImageUploadPreview": {
+    "title": "Upload animal image",
+    "subtitle": "PNG, JPG or WEBP",
+    "remove": "Remove"
+  },
+  "LoginPage": {
+    "title": "Admin Login"
+  },
+  "AdminLayout": {
+    "rootLabel": "Dashboard"
+  },
+  "ProfilePage": {
+    "title": "Profile",
+    "description": "Your profile details"
+  },
+  "ProfileCard": {
+    "created": "Created on ",
+    "logout": "Logout"
+  }
+}

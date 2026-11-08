@@ -1,0 +1,58 @@
+//COLORS
+$color-pure-white: #ffffff;
+$color-cream: #fdf8f3;
+$color-warm-white: #fffaf6;
+$color-clay: #a85f35;
+$color-clay-light: #e9a97a;
+$color-clay-dark: #6a371a;
+$color-sage: #7a9e7e;
+$color-sage-light: #a8c5ab;
+$color-blush: #f2c4b0;
+$color-text-dark: #2c2219;
+$color-text-mid: #6b5344;
+$color-text-light: #81675a;
+$color-border: #c97b4b2e;
+$color-shadow: #2c221914;
+
+$color-available-background: #d4f1d4;
+$color-available-text: #216321;
+
+$color-unavailable-background: #f0d4d4;
+$color-unavailable-text: #9b2626;
+
+$color-pending-background: #fef3cc;
+$color-pending-text: #8b6914;
+
+$color-disabled-background: #f5f5f5;
+$color-disabled-text: #535353;
+$color-disabled-border: #ccc;
+
+$color-urgent: #c0392b;
+//EXPORT CSS
+:root {
+  --color-pure-white: #{$color-pure-white};
+  --color-cream: #{$color-cream};
+  --color-warm-white: #{$color-warm-white};
+  --color-clay: #{$color-clay};
+  --color-clay-light: #{$color-clay-light};
+  --color-clay-dark: #{$color-clay-dark};
+  --color-sage: #{$color-sage};
+  --color-sage-light: #{$color-sage-light};
+  --color-blush: #{$color-blush};
+  --color-text-dark: #{$color-text-dark};
+  --color-text-mid: #{$color-text-mid};
+  --color-text-light: #{$color-text-light};
+  --color-border: #{$color-border};
+  --color-shadow: #{$color-shadow};
+  --color-available-background: #{$color-available-background};
+  --color-available-text: #{$color-available-text};
+  --color-unavailable-background: #{$color-unavailable-background};
+  --color-unavailable-text: #{$color-unavailable-text};
+  --color-pending-background: #{$color-pending-background};
+  --color-pending-text: #{$color-pending-text};
+  --color-disabled-background: #{$color-disabled-background};
+  --color-disabled-text: #{$color-disabled-text};
+  --color-disabled-border: #{$color-disabled-border};
+  --color-urgent: #{$color-urgent};
+  --border-radius: 20px;
+}

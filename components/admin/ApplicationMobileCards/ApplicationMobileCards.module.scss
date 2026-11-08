@@ -1,0 +1,82 @@
+.container {
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+
+  @media (max-width: 900px) {
+    display: flex;
+  }
+}
+
+.card {
+  background: #fdf8f3e6;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.top {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.image {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  h3 {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-dark);
+  }
+
+  p {
+    font-size: var(--font-size-sm);
+    opacity: 0.7;
+    color: var(--color-text-dark);
+    font-weight: var(--font-weight-medium);
+  }
+
+  span {
+    font-size: 11px;
+    opacity: 0.7;
+    color: var(--color-text-dark);
+    font-weight: var(--font-weight-medium);
+  }
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: var(--color-text-dark);
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+
+  svg {
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--color-text-dark);
+  }
+
+  button {
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: var(--color-text-dark);
+  }
+}

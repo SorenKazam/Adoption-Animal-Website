@@ -1,0 +1,574 @@
+{
+  "GoTopButton": {
+    "label": "Voltar ao topo"
+  },
+  "Navbar": {
+    "nav": {
+      "home": "Início",
+      "about": "Sobre Nós",
+      "howItWorks": "Como Funciona",
+      "animals": "Animais",
+      "contacts": "Contactos",
+      "donate": "Ajudar"
+    },
+    "navTitle": "ADOPTION",
+    "cta": "Adotar Agora 🐾",
+    "ctaAriaLabel": "Ir para a página de adoção",
+    "hamburgerAriaLabel": "Abrir ou fechar menu"
+  },
+  "AdminDashboard": {
+    "label": "Dashboard",
+    "welcomeTitle": "Bem-vindo de volta, {name}!",
+    "description": "Gerencie animais, aplicações e atividade da plataforma.",
+    "animals": "Total de animais",
+    "animalsDescription": "animais no abrigo",
+    "adoptedAnimals": "Animais Adotados",
+    "adoptedAnimalsDescription": "animais adotados",
+    "applications": "Aplicações",
+    "applicationsDescription": "aplicações pendentes",
+    "pendingApplications": "Aplicações Pendentes",
+    "profile": "Perfil"
+  },
+  "Footer": {
+    "links": {
+      "animals": "Animais para Adoção",
+      "about": "Sobre a Associação",
+      "howItWorks": "Como Funciona",
+      "contacts": "Contactos",
+      "privacyPolicy": "Politica de Privacidade"
+    },
+
+    "top": {
+      "paw": "🐾",
+      "title": "ADOPTION — Animal Adoption Association",
+      "description": "Desde 2005, dedicamo-nos ao resgate, recuperação e adoção responsável de animais em situação de vulnerabilidade.",
+
+      "links": {
+        "title": "Navegação"
+      },
+
+      "newsletter": {
+        "title": "Newsletter 🐾",
+        "description": "Receba novidades sobre animais disponíveis, campanhas solidárias e iniciativas da associação.",
+        "form": {
+          "emailInputPlaceholder": "Introduza o seu email",
+          "submitButtonText": "Subscrever",
+          "submitButtonLabel": "Subscrever newsletter"
+        }
+      }
+    },
+
+    "bottom": {
+      "copyright": "© ADOPTION — Todos os direitos reservados",
+      "IBAN": "IBAN: PT00 0000 00000000 000 0000 0000 0000 0000 0000 000",
+      "createdBy": "Criado com ❤️ por "
+    }
+  },
+  "HomePage": {
+    "hero": {
+      "backgroundPaw": "🐾",
+      "badge": "🐾 Adoção Responsável",
+      "title": {
+        "line1": "Dê um lar a quem",
+        "line2": "mais precisa de ",
+        "highlight": "amor"
+      },
+
+      "subtitle": "Cada resgate é uma nova oportunidade. Cada adoção muda uma vida.",
+      "buttons": {
+        "primary": "Conhecer Animais 🐾",
+        "primaryAriaLabel": "Ir para a página de adoção",
+        "secondary": "Como Funciona",
+        "secondaryAriaLabel": "Saber como funciona o processo"
+      },
+      "stats": {
+        "animalsSaved": {
+          "value": "142+",
+          "label": "Animais Resgatados"
+        },
+        "happyAdoptions": {
+          "value": "98",
+          "label": "Adoções Concretizadas"
+        },
+        "yearsHelping": {
+          "value": "5 anos",
+          "label": "A Cuidar"
+        }
+      },
+      "imageRow": {
+        "alt": "Animal resgatado pela associação"
+      }
+    },
+    "howItWorks": {
+      "label": "Processo de Adoção",
+      "title": "Como",
+      "titleHighlight": "Funciona",
+      "description": "Cada animal percorre um caminho de cuidado, recuperação e confiança antes de encontrar uma nova família.",
+      "steps": [
+        {
+          "color": "orange",
+          "icon": "📢",
+          "title": "Denúncia ou Avistamento",
+          "description": "Recebemos denúncias ou alertas sobre animais abandonados, feridos ou em situação de risco."
+        },
+        {
+          "color": "green",
+          "icon": "🚐",
+          "title": "Resgate",
+          "description": "A nossa equipa desloca-se ao local e garante o resgate em segurança."
+        },
+        {
+          "color": "blue",
+          "icon": "🏥",
+          "title": "Cuidados Veterinários",
+          "description": "Cada animal recebe avaliação médica, vacinação, desparasitação e os tratamentos necessários."
+        },
+        {
+          "color": "purple",
+          "icon": "✂️",
+          "title": "Esterilização",
+          "description": "Sempre que possível, o animal é esterilizado para contribuir para o controlo da população e garantir uma vida mais saudável."
+        },
+        {
+          "type": "urgent",
+          "tag": "⚠️ URGENTE",
+          "color": "red",
+          "icon": "🏠",
+          "title": "Refugio — Capacidade Máxima!",
+          "description": "Sempre que possível, o animal é esterilizado para contribuir para o controlo da população e garantir uma vida mais saudável."
+        }
+      ]
+    },
+    "features": {
+      "label": "Ajude-nos a continuar",
+      "title": "Como",
+      "titleHighlight": "contribuir",
+      "description": "Cada contributo ajuda-nos a alimentar, tratar e proteger animais que precisam de apoio.",
+      "features": [
+        {
+          "icon": "/assets/logos/financial/paypal.svg",
+          "title": "PayPal",
+          "description": "Contribua de forma rápida e segura através do PayPal.",
+          "cta": {
+            "label": "Doar via PayPal",
+            "ariaLabel": "Doar via PayPal",
+            "href": "https://paypal.me/"
+          }
+        },
+        {
+          "icon": "/assets/logos/financial/creditcard.svg",
+          "title": "Transferência Bancária",
+          "description": "Pode apoiar a associação através de transferência bancária.",
+          "cta": {
+            "label": "Doar via transferência bancária",
+            "ariaLabel": "Doar via transferência bancária",
+            "href": "https://paypal.me/"
+          }
+        },
+        {
+          "icon": "/assets/logos/financial/mbway.svg",
+          "title": "MBWay",
+          "description": "Faça o seu donativo de forma simples através de MB WAY.",
+          "cta": {
+            "label": "Doar via MBWay",
+            "ariaLabel": "Doar via m b Way",
+            "href": "https://paypal.me/"
+          }
+        }
+      ]
+    }
+  },
+  "CardLabels": {
+    "statusLabel": {
+      "available": "Disponivel",
+      "unavailable": "Já adotado",
+      "adopted": "Já adotado",
+      "pending": "Em processo de adoção"
+    },
+    "statusLabelButton": {
+      "available": "Conhecer",
+      "adopted": "Já adotado",
+      "pending": "Em processo de adoção",
+      "seeAll": "Ver Todos"
+    },
+    "year": "ano",
+    "years": "anos",
+    "month": "mês",
+    "months": "meses",
+    "day": "dia",
+    "days": "dias",
+    "noResults": "Nenhum animal disponível, e isso são boas noticias!"
+  },
+  "CardGrid": {
+    "label": "🐾 Para Adotar",
+    "title": "Os nossos pequeninos estão à espera de uma ",
+    "titleHighlight": "família",
+    "description": "Cada um deles tem uma história. Todos merecem um final feliz. Seu seria o nosso próximo?"
+  },
+  "About": {
+    "label": "🏠 A nossa história",
+    "title": "Nascemos do amor pelos ",
+    "titleHighlight": "animais",
+    "description": "A Patinhas Felizes nasceu em 2019, , de um grupo de voluntários que não conseguia ficar indiferente ao sofrimento dos animais abandonados nas ruas e serras da região. Hoje contamos com uma equipa dedicada de veterinários parceiros, voluntários e transportistas que garantem que cada animal resgatado recebe os cuidados que merece — antes de encontrar a família que sempre deveria ter tido.",
+    "bodyImage": {
+      "url": "/assets/images/man-his-dog-outdoors.jpg",
+      "alt": "Homem com cachorro na natureza"
+    },
+    "pillars": [
+      {
+        "icon": "💊",
+        "title": "Cuidados Veterinários",
+        "text": "Tratamento, vacinação e esterilização de todos os animais."
+      },
+      {
+        "icon": "🏠",
+        "title": "Refugio Temporário",
+        "text": "Casas de acolhimento enquanto aguardam adoção."
+      },
+      {
+        "icon": "❤️",
+        "title": "Adoção Responsável",
+        "text": "Seleção cuidada das famílias e acompanhamento pós-adoção."
+      },
+      {
+        "icon": "📢",
+        "title": "Sensibilização",
+        "text": "Campanhas de educação e prevenção do abandono."
+      }
+    ]
+  },
+  "Animals": {
+    "label": "Animais",
+    "title": "Os nossos ",
+    "titleHighlight": "animais",
+    "description": "Aqui encontraras todos os animais que estao a espera de uma familia. Se quiseres ajudar, por favor, entra em contacto conosco.",
+    "showAll": "Ver Todos",
+    "showAllAriaLabel": "Ir para página de adoção",
+    "noResults": "Nenhum animal disponível, e isso são boas noticias!"
+  },
+  "UrgentBanner": {
+    "emphasis": "URGENTE",
+    "message": " O nosso refugio atingiu a capacidade máxima! Por favor, adota hoje!"
+  },
+  "Contacts": {
+    "backgroundImageUrl": "/assets/images/man-his-dog-outdoors.jpg",
+    "backgroundImageAlt": "Homem com cachorro na natureza",
+    "label": "Fala Connosco",
+    "title": "Estamos aqui para ",
+    "titleHighlight": "ajudar",
+    "description": "Tens dúvidas sobre adoção, queres reportar um animal em risco, ou simplesmente queres ajudar? Entra em contacto!",
+    "contactOptions": {
+      "phone": "Telefone Fixo",
+      "mobile": "Telemóvel (Urgências)",
+      "email": "Email",
+      "location": "Localização",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter"
+    },
+    "contactSectionImage": {
+      "alt": "Homem com cachorro na natureza"
+    }
+  },
+  "ItemDetailsLayout": {
+    "greeting": "Olá, eu sou ",
+    "pronouns": {
+      "male": "o",
+      "female": "a",
+      "other": ""
+    },
+    "status": {
+      "available": "disponível para adoção",
+      "unavailable": "já adotado",
+      "pending": "em processo de adoção"
+    },
+    "adoptionButtonLabel": {
+      "available": "Adotar",
+      "unavailable": "Não está disponível"
+    },
+    "animalInfo": {
+      "subtitle": "Informação sobre o animal",
+      "age": "Idade",
+      "species": {
+        "dog": "Cão",
+        "cat": "Gato",
+        "other": "Outro"
+      },
+      "breed": {
+        "label": "Raça"
+      },
+      "gender": {
+        "male": "Macho",
+        "female": "Fêmea",
+        "other": "Outro"
+      },
+      "vaccinated": {
+        "label": "Vacinação",
+        "true": "Vacinado",
+        "false": "Não Vacinado"
+      },
+      "neutrized": {
+        "label": "Esterilização",
+        "true": "Esterilizado",
+        "false": "Não Esterilizado"
+      },
+      "size": {
+        "label": "Porte",
+        "small": "Pequeno",
+        "medium": "Médio",
+        "large": "Grande",
+        "unknown": "Desconhecido"
+      }
+    }
+  },
+  "metadata": {
+    "default": {
+      "title": "ADOPTION – Associação de Defesa dos Animais | Adoção de Gatos",
+      "description": "A ADOPTION é uma associação de defesa dos animais em, dedicada ao cuidado e adoção responsável de gatos adultos. Conhece ADOPTION e ajuda-nos a dar uma nova vida a animais em situação de vulnerabilidade.",
+      "keywords": ["adoção gatos", "associação animais", "", ""]
+    },
+    "openGraph": {
+      "title": "ADOPTION – Associação de Defesa dos Animais de  | Adoção de Gatos ",
+      "description": "A ADOPTION é uma associação de defesa dos animais em, dedicada ao cuidado e adoção responsável de gatos adultos. Conhece ADOPTION e ajuda-nos a dar uma nova vida a animais em situação de vulnerabilidade.",
+      "imageAlt": "ADOPTION"
+    },
+    "twitter": {
+      "title": "ADOPTION – Associação de Defesa dos Animais de  | Adoção de Gatos ",
+      "description": "A ADOPTION é uma associação de defesa dos animais em, dedicada ao cuidado e adoção responsável de gatos adultos. Conhece ADOPTION e ajuda-nos a dar uma nova vida a animais em situação de vulnerabilidade."
+    }
+  },
+  "Adopt": {
+    "label": "Um pequeno passo para um grande amor",
+    "title": "Ficha de adoção de",
+    "subtitle": "Os gatos da ADOPTION",
+    "description": "Conhecemos  da ADOPTION e ajuda-nos a dar uma nova vida a animais em situação de vulnerabilidade."
+  },
+  "AdoptForm": {
+    "userData": {
+      "sectionTitle": "Seus dados:",
+      "name": "Nome completo:",
+      "email": "Email:",
+      "phone": "Telefone:",
+      "birthdate": "Data de nascimento:",
+      "nationality": "Nacionalidade:"
+    },
+    "address": {
+      "sectionTitle": "Residência:",
+      "address": "Morada completa:",
+      "city": "Cidade:",
+      "housingType": {
+        "title": "Tipo de moradia:",
+        "select": "Selecione uma opção",
+        "apartment": "Apartamento",
+        "house": "Casa",
+        "other": "Outro"
+      },
+      "housingStatus": {
+        "title": "Casa própria ou arrendada?",
+        "select": "Selecione uma opção",
+        "rent": "Alugado",
+        "own": "Proprio",
+        "other": "Outro"
+      },
+      "petsAllowed": {
+        "title": "Habitação permite animais?",
+        "yes": "Sim",
+        "no": "Não sei / não tenho a certeza"
+      }
+    },
+    "previousPets": {
+      "sectionTitle": "Experiência com animais:",
+      "options": {
+        "title": "Já teve animais antes?",
+        "yes": "Sim",
+        "no": "Não"
+      },
+      "currentPets": "Tem animais atualmente? Quais?"
+    },
+    "routine": {
+      "sectionTitle": "Rotina:",
+      "hoursAlone": "Quantas horas por dia o animal ficaria sozinho?",
+      "responsiblePerson": "Quem será o principal responsável pelo animal?"
+    },
+    "resident": {
+      "sectionTitle": "Residência em Portugal:",
+      "isResident": {
+        "title": "É residente em Portugal?",
+        "yes": "Sim",
+        "no": "Não"
+      },
+      "duration": "Quanto tempo pretende ficar em Portugal?",
+      "movePlans": {
+        "title": "Pretende mudar para Portugal?",
+        "yes": "Sim",
+        "no": "Não"
+      }
+    },
+    "commitment": {
+      "sectionTitle": "Compromisso:",
+      "commitment": {
+        "title": "Está preparado para custos veterinários?",
+        "yes": "Sim",
+        "no": "Não"
+      }
+    },
+    "otherInfo": "Outras informações:",
+    "submit": "Enviar",
+    "submitAriaLabel": "Enviar ficha de adoção"
+  },
+  "AdoptionStatusPage": {
+    "status": {
+      "true": "Pedido de adoção enviado com sucesso!",
+      "false": "Aconteceu algo de errado no envio do pedido!"
+    },
+    "description": {
+      "true": "Obrigado por enviar o pedido de adoção! Alguem da nossa equipa irá contactar-te em breve.",
+      "false": "Por favor tente novamente mais tarde, ou entre em contacto conosco."
+    },
+    "cta": "Voltar ao início"
+  },
+  "Admin": {
+    "Sidebar": {
+      "navTitle": "ADOPTION Dashboard",
+      "navLogout": "Terminar sessão",
+      "nav": {
+        "home": "Início",
+        "animals": "Animais",
+        "applications": "Pedidos de adoção",
+        "settings": "Configurações",
+        "profile": "Perfil"
+      }
+    }
+  },
+  "NotFoundPage": {
+    "title": "404",
+    "description": "Miau! Parece que a página que procuras não existe.",
+    "cta": "Voltar ao início"
+  },
+  "Login": {
+    "email": "Email",
+    "password": "Senha",
+    "login": "Iniciar sessão",
+    "resetFields": "Limpar campos"
+  },
+  "ApplicationDetails": {
+    "createdAt": "Pedido criado em",
+    "requestedAnimal": "Animal solicitado",
+    "contacts": "Contactos",
+    "email": "Email",
+    "phone": "Telefone",
+    "personalData": "Dados do adotante",
+    "birthdate": "Nascimento",
+    "nationality": "Nacionalidade",
+    "address": "Morada",
+    "housing": "Habitação",
+    "experienceRoutine": "Experiência & rotina",
+    "previousPets": "Já teve pets?",
+    "currentPets": "Pets atuais",
+    "none": "Nenhum",
+    "hoursAlone": "Horas sozinho",
+    "stayDuration": "Tempo de estadia",
+    "comments": "Comentários",
+    "reject": "Recusar",
+    "accept": "Aceitar",
+    "yes": "Sim",
+    "no": "Não"
+  },
+  "ApplicationMobileCards": {
+    "candidate": "Candidato",
+    "animal": "Animal",
+    "status": "Estado",
+    "date": "Data"
+  },
+  "DeleteAnimalButton": {
+    "confirmDelete": "Tem a certeza que deseja apagar",
+    "delete": "Apagar"
+  },
+  "AnimalForm": {
+    "basicInformation": "Informação Básica",
+    "name": "Nome",
+    "species": "Espécie",
+    "cat": "Gato",
+    "dog": "Cão",
+    "other": "Outro",
+    "breed": "Raça",
+    "details": "Detalhes",
+    "ageMonths": "Idade (meses)",
+    "gender": "Género",
+    "male": "Macho",
+    "female": "Fêmea",
+    "size": "Porte",
+    "small": "Pequeno",
+    "medium": "Médio",
+    "large": "Grande",
+    "adoptionStatus": "Estado de adoção",
+    "available": "Disponível",
+    "pending": "Pendente",
+    "adopted": "Adotado",
+    "media": "Multimédia",
+    "uploadTitle": "Carregue imagem do animal",
+    "uploadSubtitle": "PNG, JPG ou WEBP",
+    "removeButton": "Remover",
+    "healthNotes": "Saúde & Notas",
+    "description": "Descrição",
+    "vaccinated": "Vacinado",
+    "neutered": "Castrado",
+    "saveChanges": "Guardar alterações",
+    "createAnimal": "Criar animal"
+  },
+  "AddAnimalPage": {
+    "title": "Adicionar Animal",
+    "description": "Adicione um novo animal"
+  },
+  "AdminAnimalsPage": {
+    "title": "Animais",
+    "description": "{count} animais",
+    "addAnimalButton": "Adicionar Animal",
+    "tableHeaders": {
+      "photo": "Foto",
+      "name": "Nome",
+      "species": "Espécie",
+      "adoptionStatus": "Estado de adoção",
+      "actions": "Ações"
+    },
+    "previousPage": "← Anterior",
+    "pagination": "Página {page} de {totalPages}",
+    "nextPage": "Próxima →",
+    "noAnimalsFound": "Nenhum animal encontrado"
+  },
+  "AdminApplicationsPage": {
+    "title": "Aplicações",
+    "description": "{count} aplicações",
+    "tableHeaders": {
+      "photo": "Foto",
+      "animal": "Animal",
+      "candidate": "Candidato",
+      "applicationStatus": "Estado da candidatura",
+      "date": "Data",
+      "actions": "Ações"
+    },
+    "previousPage": "← Anterior",
+    "pagination": "Página {page} de {totalPages}",
+    "nextPage": "Próxima →",
+    "noApplicationsFound": "Nenhuma aplicação encontrada"
+  },
+  "ImageUploadPreview": {
+    "title": "Carregue imagem do animal",
+    "subtitle": "PNG, JPG ou WEBP",
+    "remove": "Remover"
+  },
+  "LoginPage": {
+    "title": "Acesso ao Admin"
+  },
+  "AdminLayout": {
+    "rootLabel": "Dashboard"
+  },
+  "ProfilePage": {
+    "title": "Perfil",
+    "description": "Seus dados pessoais"
+  },
+  "ProfileCard": {
+    "created": "Criado em ",
+    "logout": "Terminar sessão"
+  }
+}

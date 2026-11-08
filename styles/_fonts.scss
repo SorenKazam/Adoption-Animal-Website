@@ -1,0 +1,59 @@
+//FONTS
+//FONT WEIGHTS
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+$font-weight-ultrabold: 900;
+
+//FONT SIZES
+$font-size-xs: clamp(0.75rem, 0.7rem + 0.2vw, 0.8rem); // ~12px
+$font-size-sm: clamp(0.85rem, 0.8rem + 0.2vw, 0.9rem); // ~14px
+$font-size-base: clamp(1rem, 0.95rem + 0.3vw, 1.1rem); // ~16px
+$font-size-md: clamp(1.1rem, 1rem + 0.4vw, 1.25rem); // ~18-20px
+$font-size-lg: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem); // ~20-24px
+$font-size-xl: clamp(1.5rem, 1.3rem + 1vw, 2rem); // ~24-32px
+$font-size-xxl: clamp(2rem, 1.6rem + 1.5vw, 2.75rem); // ~32-44px
+
+//FONT LINE HEIGHT
+$leading-xs: 1.1; // títulos muito apertados
+$leading-sm: 1.25; // headings
+$leading-base: 1.5; // texto normal
+$leading-md: 1.6; // leitura confortável
+$leading-lg: 1.75; // texto longo / artigos
+$leading-xl: 2; // spacing mais solto
+
+//EXPORT CSS
+:root {
+  //FONTS
+  --font-fraunces: "Fraunces", serif;
+  --font-dm-sans: "DM Sans", sans-serif;
+
+  //FONT SIZES
+  --font-size-xs: #{$font-size-xs};
+  --font-size-sm: #{$font-size-sm};
+  --font-size-base: #{$font-size-base};
+  --font-size-md: #{$font-size-md};
+  --font-size-lg: #{$font-size-lg};
+  --font-size-xl: #{$font-size-xl};
+  --font-size-xxl: #{$font-size-xxl};
+
+  //FONT LINE HEIGHT
+  --leading-xs: #{$leading-xs};
+  --leading-sm: #{$leading-sm};
+  --leading-base: #{$leading-base};
+  --leading-md: #{$leading-md};
+  --leading-lg: #{$leading-lg};
+  --leading-xl: #{$leading-xl};
+
+  //FONT WEIGHTS
+  --font-weight-light: #{$font-weight-light};
+  --font-weight-regular: #{$font-weight-regular};
+  --font-weight-medium: #{$font-weight-medium};
+  --font-weight-semibold: #{$font-weight-semibold};
+  --font-weight-bold: #{$font-weight-bold};
+  --font-weight-extrabold: #{$font-weight-extrabold};
+  --font-weight-ultrabold: #{$font-weight-ultrabold};
+}

@@ -1,0 +1,12 @@
+.mainContent {
+  background-color: var(--color-pure-white);
+}
+.adminLayout {
+  display: flex;
+  height: 100vh;
+}
+
+.mainContent {
+  flex: 1;
+  overflow: auto;
+}

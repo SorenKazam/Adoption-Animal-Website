@@ -1,0 +1,135 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0.85rem 2rem;
+  border-radius: 50px;
+
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-dm-sans);
+  color: var(--color-text-dark);
+  background: transparent;
+  border: 1px solid var(--color-border);
+
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 6px 20px var(--color-shadow);
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.15s ease,
+    box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-clay);
+    outline-offset: 3px;
+  }
+
+  // PRIMARY
+  &.primary {
+    background: var(--color-clay);
+    color: var(--color-cream);
+    border: none;
+
+    &:hover {
+      box-shadow: 0 10px 26px var(--color-shadow);
+    }
+  }
+
+  // SECONDARY
+  &.secondary {
+    background: transparent;
+    color: var(--color-clay);
+    border: 2px solid var(--color-clay);
+
+    &:hover {
+      background: rgba(201, 123, 75, 0.08);
+    }
+  }
+
+  // LINK
+  &.link {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    border-radius: 0;
+    color: var(--color-clay);
+    font-size: var(--font-size-base);
+    text-decoration: underline;
+
+    &:hover {
+      opacity: 0.75;
+      transform: none;
+    }
+  }
+
+  // CTA
+  &.cta {
+    background: orange;
+    color: white;
+    border: none;
+  }
+
+  // HAMBURGER
+  &.hamburger {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    z-index: 101;
+  }
+
+  // OUTLINE
+  &.outline {
+    background: var(--color-cream);
+    color: var(--color-clay);
+    border: 2px solid var(--color-clay);
+    display: inline-flex;
+
+    &:hover {
+      background: var(--color-clay);
+      color: var(--color-cream);
+    }
+  }
+
+  // DISABLED
+  &.disabled {
+    color: var(--color-disabled-text);
+    background: var(--color-disabled-background);
+    border-color: transparent;
+    pointer-events: none;
+    box-shadow: none;
+  }
+
+  // ACTIVE
+  &.active {
+    background-color: rgba(201, 123, 75, 0.12);
+  }
+
+  svg {
+    color: currentColor;
+    width: 2em;
+    height: 2em;
+  }
+}
